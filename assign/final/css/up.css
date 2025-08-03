@@ -1,0 +1,11 @@
+body main > div,
+body main div,
+body #all main > div,
+body #all main div {
+    background-color: #280C51 !important;
+    padding: 5% !important;
+    width: 60% !important;
+    max-width: 600px !important;
+    margin: 0 auto !important;
+}
+

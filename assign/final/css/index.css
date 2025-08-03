@@ -1,0 +1,170 @@
+
+    header, footer {
+        width: 100%;
+        height: 15vh;
+        background-color: #290D51;
+    }
+    main {
+    background-color: #17072C;
+    width: 100%;
+    height: 80vh;
+    }
+    header nav {
+    width: 99%;
+    height: 150px;
+    background-color: #290D51;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    }
+    #logo {
+        width: 100px;
+        height: 100px;
+        margin: 1%;
+    }
+    nav h1 {
+        font-size: 2rem;
+        color: #d8d6de;
+    }
+    nav a {
+        color: #d8d6de;
+        text-decoration: none;
+        display: flex;
+        margin: 1%;
+        padding: 2%;
+    }
+    nav a:hover {
+        background-color: #1f063b;
+    }
+    header div {
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    }
+    #pfp {
+        
+        height: 3rem;
+        border-radius: 50%;
+        cursor: pointer; /* input the hover */
+    }
+
+
+    #menu {
+        display: none;
+        position: absolute;
+
+        top: 1%;
+        right: 0.5%;
+        
+        background-color: #f9f9f9;
+        z-index: 1;
+        border-radius: 2%;
+    }
+    #menu a{
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    #menu a:hover{
+        background-color: #f9f9f9;
+    }
+    #dropdown:hover #menu{
+        display: block;
+    }
+
+
+    main {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #d8d6de;
+
+    }
+    main img {
+        width: 50%;
+        height: 35%;
+        opacity: 60%;
+    } 
+    #iteam2 {
+        margin-top: 10%;
+        display: flex;
+        flex-direction:row;
+        justify-content: space-evenly
+    }
+    div h4 {
+        padding: 1%;
+        font-size: 2rem;
+        font-weight: bold;
+        color: #d8d6de;
+        margin-right: 5%;
+    }
+    div p {
+        padding: 1%;
+        color: #d8d6de;
+        margin-left: 10%;
+        width: 30%;
+    }
+
+    footer a , footer p{
+    color: #d8d6de;
+    padding: 1.5%;
+    }
+    footer img {
+    width: 24px;
+    height: 24px;
+    }
+
+
+
+
+
+     @media (max-width: 480px) {
+        * {
+            font-size: 0.7rem; 
+        }
+        #hi{
+            align-items: right;
+            
+        }
+       
+    
+        main {
+            width: 100%; 
+            height: auto;
+        }
+    
+       
+    }
+
+    @media (min-width: 678px) {
+        * {
+            
+            overflow-x: hidden; 
+        }
+        
+        
+        nav img{
+            width: 200px;
+            height: 200px;
+        }
+        main {
+            width: 100%; 
+            height: auto;
+        }
+        main img {
+            margin-top: 10%;
+            
+        }
+       #iteam2{
+        margin-bottom: 10%;
+
+       }
+    
+       
+       
+    } 

@@ -1,0 +1,103 @@
+header, footer {
+    width: 100%;
+    height: 15vh;
+    background-color: #290D51;
+}
+
+main {
+    background-color: #17072C;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    height: 150px;
+    background-color: #290D51;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    margin: 1%;
+}
+
+nav h1 {
+    font-size: 2rem;
+    color: #d8d6de;
+}
+
+nav a {
+    color: #d8d6de;
+    text-decoration: none;
+    display: flex;
+    margin: 1%;
+    padding: 2%;
+}
+
+nav a:hover {
+    background-color: #1f063b;
+}
+
+main div {
+    background-color: #280C51;
+    padding: 5%;
+    width: fit-content;
+}
+
+#bookform {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(4, auto);
+    gap: 10px;
+}
+
+#bookform h4 {
+    color: #d8d6de;
+    font-size: 1.5rem;
+    grid-column: 1 / span 2;
+    margin-bottom: 10px;
+}
+
+#bookform label {
+    padding-top: 1%;
+    padding: 2%;
+    color: #d8d6de;
+    align-self: center;
+}
+
+#bookform input, #bookform select, #bookform button {
+    padding: 5px;
+    width: 100%;
+}
+
+#bookform button {
+    grid-column: 1 / span 2;
+    margin-top: 20px;
+    align-self: center;
+}
+
+footer a, footer p {
+    color: #d8d6de;
+    padding: 1.5%;
+}
+
+footer img {
+    width: 24px;
+    height: 24px;
+}
+main > div {
+    width: 60% !important;
+    max-width: 600px !important;
+}
+main div {
+    width: 60% !important;
+    max-width: 600px !important;
+}

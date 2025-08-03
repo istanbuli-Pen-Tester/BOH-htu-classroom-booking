@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    color: #d8d6de;
+    background-color: #17072C;
+}
+
+#all {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, footer {
+    background-color: #290D51;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+}
+
+nav h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+nav a {
+    color: #d8d6de;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #1f063b;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.booking-container {
+    
+    gap: 5rem;
+    background-color: #280C51;
+    padding: 1rem; 
+    border-radius: 8px;
+    width: 40%; 
+    margin: 5rem auto; 
+    
+
+
+}
+@media (max-width: 480px) { 
+ .booking-container{
+    width: 90% ;
+    padding: 0;
+    margin: 0;
+
+ }       
+ form {
+    width: 89% ;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #1f063b;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 0 auto; 
+}
+
+form .form-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 1%;
+}
+
+form .form-item label {
+    font-weight: bold;
+    color: #d8d6de;
+    flex: 1;
+}
+
+form .form-item input,
+form .form-item select,
+form .form-item button {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    text-align: center;
+    width: 80%; 
+    box-sizing: border-box; 
+}
+
+form .form-item button {
+    cursor: pointer;
+    background-color: #3a1069;
+    color: #d8d6de;
+    transition: background-color 0.3s;
+    flex: 1;
+}
+
+form .form-item button:hover {
+    background-color: #4a1479;
+}
+
+
+
+
+footer a, footer p {
+    color: #d8d6de;
+    padding: 1.5%;
+}
+
+footer img {
+    width: 24px;
+    height: 24px;
+}

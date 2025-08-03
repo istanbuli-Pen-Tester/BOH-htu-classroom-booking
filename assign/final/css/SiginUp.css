@@ -1,0 +1,109 @@
+#all {
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    width: 100%;
+    height: 15vh;
+    background-color: #290D51;
+}
+
+nav a:hover {
+    background-color: #1f063b;
+}
+
+main {
+    background-color: #17072C;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    /* Centers the div */
+    justify-content: center; 
+    align-items: center; 
+}
+
+nav {
+    width: 100%;
+    height: 150px;
+    background-color: #290D51;
+    display: flex;
+    flex-direction: row;
+    /* those are to make the logo on left the a on the right and to put all the space in between*/
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    margin: 1%;
+}
+
+nav h1 {
+    font-size: 2rem;
+    color: #d8d6de;
+}
+
+nav a {
+    color: #d8d6de;
+    text-decoration: none;/* to remove underline */
+    display: flex;
+    margin: 1%;
+    padding: 2%;
+}
+
+main div {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    background-color: #280C51;
+}
+
+main div h4 {
+    color: #d8d6de;
+    font-size: 2rem;
+    padding: 0.7%;
+}
+
+main div input {
+    padding-top: 1%;
+    padding: 2%;
+    color: #d8d6de;
+}
+
+main div label {
+    padding-top: 1%;
+    padding: 2%;
+    color: #d8d6de;
+}
+
+footer a, footer p {
+    color: #d8d6de;
+    padding: 1.5%;
+}
+
+footer img {
+    width: 24px;
+    height: 24px;
+}
+
+/* New styles for the form and submit button */
+#signupForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#createAccount {
+    background: none;
+    border: none;
+    color: #d8d6de;
+    cursor: pointer;
+    padding: 2%;
+    text-align: left;
+    text-decoration: underline;
+}
+
+#createAccount:hover {
+    background-color: #1f063b;
+}
